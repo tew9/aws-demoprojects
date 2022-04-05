@@ -14,7 +14,7 @@ public class FlightRestController {
   @Autowired
   FlightRepo repo;
 
-  @RequestMapping(value = "/flight")
+  @RequestMapping(value = "/flights")
   public List<Flight> getAllFlight(){
     return repo.findAll();
   }
