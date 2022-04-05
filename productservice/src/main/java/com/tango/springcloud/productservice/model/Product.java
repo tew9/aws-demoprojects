@@ -16,8 +16,13 @@ public class Product {
   private String description;
   private BigDecimal price;
 
+
   @Transient //we don't want to save it in the database
   private String couponCode;
+
+  public void setCouponCode(String couponCode) {
+    this.couponCode = couponCode;
+  }
 
   public String getCouponCode() {
     return couponCode;
