@@ -1,0 +1,17 @@
+Index: ../couponservice/src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.datasource.url=jdbc:mysql://localhost/mydb?useSSL=false&allowMultiQueries=true&serverTimezone=UTC\r\nspring.datasource.username=root\r\nspring.datasource.password=0511\r\nspring.datasource.driverClassName=com.mysql.cj.jdbc.Driver\r\nspring.jpa.show-sql=true\r\n\r\n\r\n\r\n### DO NOT USE (\\t) TABS###\r\n# This section defines default properties\r\n# They can be overwritten by specific\r\n# profiles (e.g. default)\r\n#\r\n#---\r\n#spring:\r\n#  main:\r\n#    allow-bean-definition-overriding: true\r\n#  application:\r\n#    name: couponservice\r\n#  data:\r\n#    url: jdbc:mysql://localhost:3306/mydb\r\n#---\r\n#\r\n## This is used for dev\r\n#spring:\r\n#  profiles: dev\r\n#  data:\r\n#    url: jdbc:mysql://localhost:3306/mydb\r\n#    username: root\r\n#    password: 0511\r\n#\r\n#server:\r\n#  port: 8080\r\n\r\n
+===================================================================
+diff --git a/../couponservice/src/main/resources/application.properties b/../couponservice/src/main/resources/application.properties
+--- a/../couponservice/src/main/resources/application.properties	
++++ b/../couponservice/src/main/resources/application.properties	
+@@ -4,6 +4,8 @@
+ spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+ spring.jpa.show-sql=true
+ 
++server.port=9091
++
+ 
+ 
+ ### DO NOT USE (\t) TABS###
