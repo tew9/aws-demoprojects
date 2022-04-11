@@ -1,0 +1,500 @@
+   85  git fetch --all
+   86  git pull origin branch1 
+   87  git log
+   88  git status
+   89  git status
+   90  git push origin branch1 
+   91  git checkout master
+   92  git fetch origin master
+   93  git pull origin master
+   94  cd source/repos/
+   95  cd DepKTDemos/
+   96  cd demo
+   97  az login
+   98  a config set defaults.acr=
+   99  a config set defaults.acr=depktaksTest
+  100  az config set defaults.acr=depktaksTest
+  101  az acr login
+  102  az config set defaults.acr=
+  103  US+CZ586DS@US3085987W1 MINGW64 ~
+  104  $ cd source/repos/
+  105  US+CZ586DS@US3085987W1 MINGW64 ~/source/repos
+  106  $
+  107  cd source/repos/DepKTDemos/demo
+  108  az config set defaults.acr=depktacrdev
+  109  az acr login
+  110  az acr login -n depktacrdev
+  111  curl http://localhost:8080/get
+  112  netstat -ano | findstr :8080
+  113  taskkill /PID 19968 /F
+  114  taskkill /PID 19968 
+  115  taskkill PID 19968 
+  116  taskkill ?
+  117  taskkill /?
+  118  taskkill /PID 8080
+  119  taskkill /TCP 19968
+  120  netstat -ano | findstr :8080
+  121  cd source/repos/DepKTDemos/demo2
+  122  git checkout -b ms-v5-keyvault
+  123  git checkout ms-v4-db
+  124  git log
+  125  q
+  126  git checkout fb257c1df786985ff769e22f7e0370faaa1fee0f
+  127  git checkout ms-v5-keyvault
+  128  git remote -v
+  129  git push origin ms-v5-keyvault 
+  130  history>git-commands.txt
+  131  cd source/repos/
+  132  git clone https://eysbp.visualstudio.com/KT%20Nexus%20Vanilla/_git/depktconfiguration
+  133  cd DepKTDemos/
+  134  cd demo
+  135  git checkout test-branch2
+  136  kubectl get all
+  137  docker image build -t tangotew/demo:v1 .
+  138  docker images
+  139  docker run -t demoapp -i tangotew/demo
+  140  docker run --name demo -it tangotew/demo:v1
+  141  docker run --name demo -it tangotew/demo:v1 'winpty'
+  142  docker run --name demo -d tangotew/demo:v1
+  143  docker ps
+  144  docker stop aa21d331d878
+  145  docker rm -f aa21d331d878
+  146  docker run --name demo -d tangotew/demo:v1 -P 8080:8080
+  147  doker ps 
+  148  docker ps
+  149  docker stop aa21d331d87
+  150  docker stop c23af0f321d7
+  151  docker rm -f c23af0f321d7
+  152  docker rm -f tangotew@demo:v1
+  153  docker image rm -f tangotew/demo:v1
+  154  /.mvn install
+  155  mvn clean install
+  156  java -jar target/policyHolder-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+  157  java -jar target/policyHolder-0.0.1-SNAPSHOT.jar
+  158  mvn -f pom.xml clean package
+  159  docker image build -t tangotew/demo:v1 .
+  160  docker images
+  161  docker ps
+  162  docker run --name demov1 tangotew/demo:v1 -p 8000:8080
+  163  docker image rm -f tangotew/demo:v1
+  164  docker image build -t tangotew/demo:v1 .
+  165  docker images
+  166  docker run --name demov1 tangotew/demo:v1 -p 8000:8080
+  167  docker ps
+  168  docker run tangotew/demo:v1 -p 8000:8080
+  169  docker image build -t tangotew/demo:v1 .
+  170  docker run tangotew/demo:v1 -p 8000:8080
+  171  cd source/repos/
+  172  ls
+  173  cd eyadvertAutomationTimmer/
+  174  git status
+  175  git add .
+  176  git commit -m "add workitem from devops"
+  177  git push origin master
+  178  cd source/repos/eyadvertAutomationTimmer/
+  179  git branch
+  180  cd source/repos/
+  181  git clone https://eysbp.visualstudio.com/KT%20Nexus%20Vanilla/_git/EYJ-MockService
+  182  cd EYJ-MockService/
+  183  git remote add origin2 https://github.com/EY-POCs/mockservice.git
+  184  git fetch origin --all
+  185  git fetch origin ms-v1-mock
+  186  git checkout ms-v1-mock
+  187  git push origin2 --all
+  188  git status
+  189  cd source/repos/
+  190  git clone https://github.com/tew9/Student-Management-System.git
+  191  cd source/repos/
+  192  git clone https://github.com/tew9/Student-Management-System.git
+  193  cd Student-Management-System/
+  194  git fetch all
+  195  git fetch --all
+  196  git checkout updateview
+  197  cd source/repos
+  198  cd 'Student-Management-System/
+  199  '
+  200  cd 'Student-Management-System/'
+  201  git fetch --all
+  202  git checkout -b login
+  203  git checkout updateview
+  204  git fetch origin updateview
+  205  git branch -D login
+  206  git checkout master
+  207  git fetch origin master
+  208  git fetch --all
+  209  git pull origin master
+  210  git checkout -b login
+  211  git checkout master
+  212  git pull origin master
+  213  git branch -D login
+  214  git checkout -b login
+  215  git checkout master
+  216  git pull origin master
+  217  cd source/repos/
+  218  clone https://github.com/tew9/MTP-Student-MS.git
+  219  git clone https://github.com/tew9/MTP-Student-MS.git
+  220  `cd MTP-Student-MS/
+  221  `
+  222  cd MTP-Student-MS/
+  223  git fetch --all
+  224  git checkout localization 
+  225  git push origin localization 
+  226  git checkout master 
+  227  git merge localization 
+  228  git push origin master
+  229  cd source/repos/nmt-nlp-nuer-eng/
+  230  git clone https://github.com/tew9/nlp-nuer-eng01.git
+  231  touch requirements.txt .
+  232  code requirements
+  233  nlp-nuer-eng01/
+  234  cd nlp-nuer-eng01/
+  235  touch nlp-nuer-eng01.ipynb
+  236  git add .
+  237  git commit -m "add initial notebook"
+  238  git push origin main
+  239  cd source/repos/
+  240  git clone https://github.com/tew9/Repo_migrator_api.git
+  241  cd Repo_migrator_api/
+  242  cd source/repos/
+  243  git clone https://eysbp.visualstudio.com/Product-Maturity-Accelerator/_git/PMA-frontend
+  244  cd PMA-frontend/
+  245  git fetch --all
+  246  git checkout dev
+  247  ls
+  248  npm install
+  249  git checkout feat/test
+  250  git checkout -b feat/test
+  251  npm start
+  252  exit()
+  253  node app
+  254  node
+  255  cd source/repos/
+  256  cd accelerator
+  257  ls
+  258  cd accelerators
+  259  git init
+  260  rm -rf .git/
+  261  git init
+  262  git remote add origin https://eysbp.visualstudio.com/Product-Maturity-Accelerator/_git/PMA-Dotnet-API
+  263  git push -u origin --all
+  264  cd source/repos/accelerator
+  265  cd source/repos/accelerators
+  266  git checkout -b dev
+  267  git checkout -b feat/dbconfig
+  268  git status
+  269  git status
+  270  git fetch origin master
+  271  git pull origin master
+  272  rm -rf .vs/Accelerators/
+  273  rm -rf GetQuestionByIDFunc
+  274  git pull origin master
+  275  git add .
+  276  git commit -m "resolve merge conflict"
+  277  git status
+  278  git push origin master
+  279  git branch -D dev
+  280  git checkout -b dev
+  281  git checkout -b feat/endpoints
+  282  git checkout dev
+  283  git push origin dev
+  284  git checkout feat/endpoints 
+  285  git status
+  286  git add Accelerator.API/.gitignore 
+  287  git commit -m "modify gitnignore"
+  288  git status
+  289  git push origin feat/endpoints 
+  290  cd source/repos/accelerators
+  291  ls
+  292  touch .gitignore
+  293  git status
+  294  git add .gitignore 
+  295  git status
+  296  rm -rf .vs/
+  297  git status
+  298  git add .
+  299  git status
+  300  git commit -m "cleanup build files"
+  301  git checkout feat/logging 
+  302  git merge docker 
+  303  git status
+  304  git push origin feat/logging 
+  305  git push origin2 feat/logging 
+  306  git remote
+  307  git push origin-github  feat/logging 
+  308  git checkout dev
+  309  git fetch origin dev
+  310  git pull origin dev
+  311  git status
+  312  git restore Accelerator.Contracts/obj/
+  313  git pull origin dev
+  314  git status
+  315  ls
+  316  ls
+  317  git fetch origin dev
+  318  git pull origin dev
+  319  git push origin-github  dev
+  320  ls
+  321  git add .
+  322  git commit -m "hotfix"
+  323  git push origin dev
+  324  git branch 
+  325  func init --docker
+  326  docker build -t accelleratorApiFuncs_v1 .
+  327  docker build -t "accelleratorApiFuncs_v1" .
+  328  docker build -t accelleratorApiFuncs:v1 .
+  329  docker build -t accelleratorapifuncs:v1 .
+  330  docker build -t accelleratorapifuncs:v1 ./Accelerator.API/
+  331  docker build -t accelleratorapifuncs:v1 ./Accelerator.API/
+  332  docker build -t accelleratorapifuncs:v1 .
+  333  docker images
+  334  docker run -p 7071:8080 acceleratorfunc
+  335  docker run -p 7071:8080 acceleratorfuncs
+  336  docker run -p 7071:8080 acceleratorapifunc
+  337  docker run -p 7071:8080 acceleratorapifuncs
+  338  docker run -p 7071:8080 acceleratorapifuncs:v1
+  339  docker images
+  340  docker run -p 7071:8080 accelleratorapifuncs:v1
+  341  docker run -p 8080:80 accelleratorapifuncs:v1
+  342  docker run -e CONNECTION_STRING=$CONNECTION_STRING -p 8080:80 accelleratorapifuncs:v1
+  343  docker exec -it accelleratorapifuncs:v1 /bin/bash
+  344  docker run -p 8080:80 accelleratorapifuncs:v1
+  345  ls
+  346  git status
+  347  git add Accelerator.API/Accelerator.API.csproj 
+  348  git add Dockerfile .dockerignore 
+  349  git commit -m "add docker file"
+  350  git push origin-github feat/docker
+  351  docker images
+  352  docker images rm 331b36b97a4e
+  353  docker images --help
+  354  docker rm acceleratorapi:dev
+  355  docker image rm acceleratorapi:dev
+  356  docker build -t accelleratorapi:dev .
+  357  docker run -p 8080:80 accelleratorapi:dev
+  358  cd source/repos/
+  359  mvn
+  360  echo $java_home
+  361  cd source/repos/
+  362  cd Aws-projects/
+  363  touch .gitignore
+  364  code .gitignore 
+  365  git add .gitignore
+  366  git status
+  367  git commit -m "add gitignore"
+  368  git checkout -b hellomaven
+  369  cd hellomaven/
+  370  git status
+  371  git ..
+  372  cd ..
+  373  ssh -i "workingawsKey.pem" ec2-user@172.31.20.164
+  374  ls
+  375  ls
+  376  cd source
+  377  cd ..
+  378  ls
+  379  cd 'OneDrive - EY'/
+  380  ls
+  381  cd CFA-works/
+  382  ls
+  383  chmod 400 awskey.pem 
+  384  ssh-keygen -y -f /awskey.pem
+  385  ssh-keygen -y -f awskey.pem
+  386  ls
+  387  ssh -i "awskey.pem" ec2-user@ec2-54-152-243-66.compute-1.amazonaws.com
+  388  cd ..
+  389  cd ..
+  390  cd source/repos/
+  391  git config --global http.sslVerify false
+  392  git config --global http.sslVerify true
+  393  cd source/repos/
+  394  cd Aws-projects/
+  395  git status
+  396  git add .
+  397  git restore --staged
+  398  git restore --staged __MACOSX/
+  399  git restore --staged devops/
+  400  git status
+  401  git checkout master
+  402  git status
+  403  code .gitignore 
+  404  code .gitignore 
+  405  git status
+  406  git add __MACOSX/
+  407  git add devops/
+  408  git commit -m "add devops files"
+  409  git push origin master
+  410  git checkout -b microservice
+  411  git status
+  412  git ad .
+  413  git add .
+  414  git commit -m "add microservice"
+  415  ls
+  416  cd..
+  417  cd ..
+  418  cd Aws-projects/
+  419  git status
+  420  git add .
+  421  git commit -m "add coupon microservice"
+  422  git checkout master
+  423  git checkout -b product-microservice
+  424  git add .
+  425  git commit -m "add product microservice"
+  426  git push --all
+  427  git add .
+  428  git commit -m "add applying discount logic to creating product"
+  429  cd source/repos
+  430  cd Aws-projects/productservice/
+  431  ls target
+  432  java -jar target/productservice-0.0.1-SNAPSHOT.jar
+  433  java -jar target/productservice-0.0.1-SNAPSHOT.jar
+  434          at java.net.Socket.connect(Socket.java:607) ~[na:1.8.0_312]
+  435  java -Dspring.profiles.active=dev -jar target/productservice-0.0.1-SNAPSHOT.jar
+  436  cd source/repos/accelerators
+  437  git status
+  438  git add .
+  439  git push origin feat/data-modeling 
+  440  git commit -m "add props to the data models"
+  441  git push origin feat/data-modeling 
+  442  #! /bin/sh
+  443  # autogen.sh
+  444  # Copyright (C) 2003, 2014, 2017, 2018 g10 Code GmbH
+  445  #
+  446  # This file is free software; as a special exception the author gives
+  447  # unlimited permission to copy and/or distribute it, with or without
+  448  # modifications, as long as this notice is preserved.
+  449  #
+  450  # This program is distributed in the hope that it will be useful, but
+  451  # WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
+  452  # implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+  453  #
+  454  # This is a generic script to create the configure script and handle cross
+  455  # build environments.  It requires the presence of a autogen.rc file to
+  456  # configure it for the respective package.  It is maintained as part of
+  457  # GnuPG and source copied by other packages.
+  458  #
+  459  # Version: 2018-02-21
+  460  configure_ac="configure.ac"
+  461  cvtver () {   awk 'NR==1 {split($NF,A,".");X=1000000*A[1]+1000*A[2]+A[3];print X;exit 0}'; }
+  462  check_version () {     if [ $(( `("$1" --version || echo "0") | cvtver` >= $2 )) = 1 ]; then        return 0;     fi;     echo "**Error**: "\`$1\'" not installed or too old." >&2;     echo '           Version '$3' or newer is required.' >&2;     [ -n "$4" ] && echo '           Note that this is part of '\`$4\''.' >&2;     DIE="yes";     return 1; }
+  463  fatal () {     echo "autogen.sh:" "$*" >&2;     DIE=yes; }
+  464  info () {     if [ -z "${SILENT}" ]; then       echo "autogen.sh:" "$*" >&2;     fi; }
+  465  die_p () {   if [ "$DIE" = "yes" ]; then     echo "autogen.sh: Stop." >&2;     exit 1;   fi; }
+  466  replace_sysroot () {     configure_opts=$(echo $configure_opts | sed "s#@SYSROOT@#${w32root}#g");     extraoptions=$(echo $extraoptions | sed "s#@SYSROOT@#${w32root}#g"); }
+  467  # Allow to override the default tool names
+  468  AUTOCONF=${AUTOCONF_PREFIX}${AUTOCONF:-autoconf}${AUTOCONF_SUFFIX}
+  469  AUTOHEADER=${AUTOCONF_PREFIX}${AUTOHEADER:-autoheader}${AUTOCONF_SUFFIX}
+  470  AUTOMAKE=${AUTOMAKE_PREFIX}${AUTOMAKE:-automake}${AUTOMAKE_SUFFIX}
+  471  ACLOCAL=${AUTOMAKE_PREFIX}${ACLOCAL:-aclocal}${AUTOMAKE_SUFFIX}
+  472  GETTEXT=${GETTEXT_PREFIX}${GETTEXT:-gettext}${GETTEXT_SUFFIX}
+  473  MSGMERGE=${GETTEXT_PREFIX}${MSGMERGE:-msgmerge}${GETTEXT_SUFFIX}
+  474  DIE=no
+  475  FORCE=
+  476  SILENT=
+  477  PRINT_HOST=no
+  478  PRINT_BUILD=no
+  479  tmp=$(dirname "$0")
+  480  tsdir=$(cd "${tmp}"; pwd)
+  481  version_parts=3
+  482  if [ -n "${AUTOGEN_SH_SILENT}" ]; then   SILENT=" --silent"; fi
+  483  if test x"$1" = x"--help"; then   echo "usage: ./autogen.sh [OPTIONS] [ARGS]";   echo "  Options:";   echo "    --silent       Silent operation";   echo "    --force        Pass --force to autoconf";   echo "    --find-version Helper for configure.ac";   echo "    --build-TYPE   Configure to cross build for TYPE";   echo "    --print-host   Print only the host triplet";   echo "    --print-build  Print only the build platform triplet";   echo "";   echo "  ARGS are passed to configure in --build-TYPE mode.";   echo "  Configuration for this script is expected in autogen.rc";   exit 0; fi
+  484  if test x"$1" = x"--silent"; then   SILENT=" --silent";   shift; fi
+  485  if test x"$1" = x"--force"; then   FORCE=" --force";   shift; fi
+  486  if test x"$1" = x"--print-host"; then   PRINT_HOST=yes;   shift; fi
+  487  if test x"$1" = x"--print-build"; then   PRINT_BUILD=yes;   shift; fi
+  488  # Reject unsafe characters in $HOME, $tsdir and cwd.  We consider spaces
+  489  # as unsafe because it is too easy to get scripts wrong in this regard.
+  490  am_lf='
+  491  '
+  492  case `pwd` in   *[\;\\\"\#\$\&\'\`$am_lf\ \	]*)     fatal "unsafe working directory name" ;; esac
+  493  case $tsdir in   *[\;\\\"\#\$\&\'\`$am_lf\ \	]*)     fatal "unsafe source directory: \`$tsdir'" ;; esac
+  494  case $HOME in   *[\;\\\"\#\$\&\'\`$am_lf\ \	]*)     fatal "unsafe home directory: \`$HOME'" ;; esac
+  495  die_p
+  496  cd source/repos/
+  497  cd Accelerators/
+  498  git status
+  499  git push origin feat/append-response 
+  500  cd source/repos/
+  501  cd Aws-projects/
+  502  docker run --help
+  503  docker images
+  504  docker ps -a
+  505  docker info
+  506  docker ps -a
+  507  docker rm -f baa005e0cf38 baa005e0cf38 
+  508  docker ps -a
+  509  docker rm 5d88be9aba2e 
+  510  docker rm 42ec3bcd74e3
+  511  docker rm --help
+  512  docker rm 26d656797839 549c606ea605 880c40ec29d8 656a861a0a13
+  513  docker ps -a
+  514  docker rmi --help
+  515  docker images
+  516  docker rmi fce289e99eb9 a3562aa0b991 dfcfd8e9a5d3 0369cf4303ff 296a6d5035e2
+  517  docker ps
+  518  docker rmi 2aa602de0b27
+  519  docker rmi -f 2aa602de0b27
+  520  docker rmi -f 2aa602de0b27
+  521  docker rmi -f 080d0256db20
+  522  docker rmi -f 080d0256db20
+  523  docker images
+  524  docker rmi -f c2b71b4f9506 168523eb658e e90cf447439e a5d502ff67dce24ac15e052e
+  525  docker rmi -f 536a665a61e9 9c10559e21cc 5b2ea90b2a53 
+  526  docker images
+  527  docker rmi -f 
+  528  docker rmi -f a5d502ff67dc e24ac15e052e fa756f89dc14 73c21de36b5b ea335eea17ab e7f2ca71e2b4 
+  529  docker images
+  530  docker rmi -f 4253856b2570 803ad17a604b 38d73e6df0c7 41bd81a0f70d 967a1c03eb00 967a1c03eb00 7b2ac941d4c3 184ef4d127b4
+  531  docker images
+  532  docker rmi -f 7b2ac941d4c3 184ef4d127b4 8e60ea3644d6 e08abd2be730 8c2c38aa676e 
+  533  docker info
+  534  docker ps
+  535  docker ps -a
+  536  docker pull ubuntu
+  537  docker history ubuntu
+  538  docker info
+  539  cd ~/var/lib/docker
+  540  sudo -i
+  541  cd ~
+  542  docker run -dit 7000:3306 --name=tango-mysql --env="MYSQL_ROOT_PASSWORD=0511" --env="MYSQL_DATABASE=emp" mysql
+  543  docker run -dit -p 7000:3306 --name=tango-mysql --env="MYSQL_ROOT_PASSWORD=0511" --env="MYSQL_DATABASE=emp" mysql
+  544  docker ps
+  545  docker ps
+  546  docker exec -it tango-mysql bask
+  547  docker exec -it tango-mysql bash
+  548  docker exec -it tango-mysql winpty
+  549  docker exec -it tango-mysql .
+  550  docker exec -it tango-mysql winpty-bash
+  551  docker exec -it tango-mysql
+  552  docker volume ls
+  553  docker exec -it tango-mysql mingw64
+  554  docker network ls
+  555  docker network ls
+  556  docker network inspect host
+  557  docker network create demont --subnet=172.19.0.0/16
+  558  docker inspect demont
+  559  docker run --name=webserver --net demont --ip 172.19.0.2 -h web.tango.com -p 8080:80 -ti ubuntu /bin/bash
+  560  docker run --name=webserver --net demont --ip 172.19.0.2 -h web.tango.com -p 8080:80 -ti
+  561  docker run --name=webserver --net demont --ip 172.19.0.2 -h web.tango.com -p 8080:80 -ti ubuntu
+  562  docker run --name=webserver --net demont --ip 172.19.0.2 -h web.tango.com -p 8080:80 -ti ubuntu shell
+  563  docker run --name=webserver --net demont --ip 172.19.0.2 -h web.tango.com -p 8080:80 -ti winpty ubuntu 
+  564  winpty docker run --name=webserver --net demont --ip 172.19.0.2 -h web.tango.com -p 8080:80 -ti ubuntu 
+  565  docker attach webserver
+  566  docker ps
+  567  winpty docker run --name=webserver --net demont --ip 172.19.0.2 -h web.tango.com -p 8080:80 -ti ubuntu 
+  568  docker rm 2ec28d5410a6
+  569  docker rm -f 2ec28d5410a6
+  570  winpty docker run --name=webserver2 --net demont --ip 172.19.0.2 -h web.tango.com -p 8080:80 -ti ubuntu 
+  571  docker ps
+  572  docker attach webserver2
+  573  echo"alias docker='winpty docker'"
+  574  echo "alias docker='winpty docker'"
+  575  docker attach webserver2
+  576  winpty docker attach webserver2
+  577  docker network disconnect demonet weberver2
+  578  docker network disconnect demonet webserver2
+  579  docker network disconnect demont webserver2
+  580  docker network ls
+  581  docker network connect bridge webserver2
+  582  docker network inspect bridge
+  583  cd source/repos/Aws-projects/
+  584  history > docker-command.txt
